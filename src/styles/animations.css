@@ -24,12 +24,10 @@
 
 @layer utilities {
   .animate-fadeInDown {
-    @apply animate-none;
     animation: fadeInDown 0.8s ease-out;
   }
 
   .animate-fadeInUp {
-    @apply animate-none;
     animation: fadeInUp 0.8s ease-out 0.2s both;
   }
 }

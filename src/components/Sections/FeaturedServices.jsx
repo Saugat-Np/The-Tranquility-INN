@@ -25,7 +25,7 @@ const FeaturedServices = ({
         { value: '🏆Best', label: 'Rated' }
       ],
       buttonText: 'Browse Rooms',
-      buttonHref: '#rooms',
+      buttonHref: '/rooms',
     },
     {
       id: 'service-events',
@@ -38,7 +38,7 @@ const FeaturedServices = ({
         { value: '👥5K+', label: 'Guests' }
       ],
       buttonText: 'Explore Events',
-      buttonHref: '#events',
+      buttonHref: '/events',
       variant: 'highlight',
     },
     {

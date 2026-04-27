@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "Cottage Room",
+    "category": "Cottage Rooms",
+    "description": "Cozy and private cottage with traditional architecture.",
+    "pricePerNight": 4500,
+    "image": "https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?w=400&h=300&fit=crop",
+    "features": ["WiFi", "Private Porch", "Rustic Design", "Garden View"]
+  },
+  {
+    "id": 2,
+    "title": "AC Deluxe Room",
+    "category": "AC Rooms",
+    "description": "Modern room with premium air conditioning and amenities.",
+    "pricePerNight": 3500,
+    "image": "https://images.unsplash.com/photo-1631049307264-da0ec9d70304?w=400&h=300&fit=crop",
+    "features": ["AC", "WiFi", "Flat-screen TV", "Double Bed"]
+  },
+  {
+    "id": 3,
+    "title": "Non-AC Room",
+    "category": "Non-AC Rooms",
+    "description": "Budget-friendly room with natural ventilation and essential amenities.",
+    "pricePerNight": 2000,
+    "image": "https://images.unsplash.com/photo-1612930633029-c7a66eae88e1?w=400&h=300&fit=crop",
+    "features": ["Fan", "WiFi", "Basic Furniture", "Shared Bathroom"]
+  },
+  {
+    "id": 4,
+    "title": "Single Bed Room",
+    "category": "Single Bed",
+    "description": "Intimate single occupancy room, perfect for solo travelers.",
+    "pricePerNight": 2500,
+    "image": "https://images.unsplash.com/photo-1598028773662-5c8fa0fc625a?w=400&h=300&fit=crop",
+    "features": ["WiFi", "Single Bed", "Workspace", "Modern Design"]
+  },
+  {
+    "id": 5,
+    "title": "Double Bed Suite",
+    "category": "Double Bed",
+    "description": "Spacious suite with a luxurious double bed and premium furnishings.",
+    "pricePerNight": 5500,
+    "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=300&fit=crop",
+    "features": ["AC", "WiFi", "Double Bed", "Bathtub"]
+  }
+]

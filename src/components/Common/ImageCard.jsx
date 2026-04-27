@@ -32,8 +32,8 @@ const ImageCard = ({
         id={`${id}-overlay`}
         className={`absolute inset-0 opacity-0 group-hover:opacity-100 transition-opacity duration-300 flex flex-col items-end justify-end p-4 sm:p-6 ${
           isDark
-            ? 'bg-gradient-to-t from-black/80 via-black/40 to-transparent'
-            : 'bg-gradient-to-t from-black/70 via-black/30 to-transparent'
+            ? 'bg-linear-to-t from-black/80 via-black/40 to-transparent'
+            : 'bg-linear-to-t from-black/70 via-black/30 to-transparent'
         }`}
       >
         {/* Category */}

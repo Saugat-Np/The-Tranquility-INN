@@ -12,9 +12,9 @@ const HeroContent = ({
   headingEnd = ' in Pokhara',
   subtitle = 'Discover luxury accommodations, thrilling adventures, and authentic Nepali cuisine in the heart of the Himalayas. Your journey to tranquility starts here.',
   primaryButtonText = 'Book Now',
-  primaryButtonHref = '#rooms',
+  primaryButtonHref = '/rooms',
   secondaryButtonText = 'Explore Events',
-  secondaryButtonHref = '#events',
+  secondaryButtonHref = '/events',
 }) => {
   return (
     <div id='hero-content' className="flex flex-col items-center justify-center min-h-full sm:min-h-full">
