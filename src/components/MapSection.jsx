@@ -1,4 +1,5 @@
 import { useTheme } from '../context/ThemeContext';
+import locationInMap from '../assets/location_in_map.png';
 
 export default function MapSection() {
   const { isDark } = useTheme();
@@ -21,18 +22,19 @@ export default function MapSection() {
 
         {/* Map Container */}
         <div className="rounded-2xl overflow-hidden shadow-2xl">
-          <div className="w-full h-96 bg-gray-200 relative">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.7799149347097!2d83.98362397520872!3d28.211286575773697!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3995952b0a0a0a0b%3A0x0a0a0a0a0a0a!2sTranquility%20Inn%2C%20Pokhara%2C%20Nepal!5e0!3m2!1sen!2s!4v1234567890"
-              width="100%"
-              height="100%"
-              style={{ border: 0 }}
-              allowFullScreen=""
-              loading="lazy"
-              referrerPolicy="no-referrer-when-downgrade"
-              title="Tranquility Inn Location"
-            ></iframe>
-          </div>
+        <img src={locationInMap} alt="location in map" />
+        </div>
+
+        {/* Google Maps Link */}
+        <div className="mt-12 text-center">
+          <a
+            href="https://www.google.com/maps/dir//Tranquility%20Inn%20Pokhara%20Nepal%20Lakeside%20Kaski%20District/@28.211287,83.983624,16z"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-linear-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
+          >
+            Get Directions 🧭
+          </a>
         </div>
 
         {/* Location Details */}
@@ -77,17 +79,7 @@ export default function MapSection() {
           </div>
         </div>
 
-        {/* Google Maps Link */}
-        <div className="mt-12 text-center">
-          <a
-            href="https://www.google.com/maps/dir//Tranquility%20Inn%20Pokhara%20Nepal%20Lakeside%20Kaski%20District/@28.211287,83.983624,16z"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-block bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white font-bold py-3 px-8 rounded-full transition-all duration-300 transform hover:scale-105 shadow-lg"
-          >
-            Get Directions 🧭
-          </a>
-        </div>
+        
       </div>
     </section>
   );
